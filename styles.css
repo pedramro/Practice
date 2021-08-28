@@ -1,0 +1,142 @@
+@font-face {
+    font-family: Spartan;
+    src: url(Spartan-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: extrabold;
+    src: url(Spartan-ExtraBold.ttf);
+}
+@font-face {
+    font-family: mediumm;
+    src: url(/Spartan-Medium.ttf);
+}
+body{
+    background: url(/images/bg-pattern-top-desktop.svg) top left no-repeat , url(/images/bg-pattern-bottom-desktop.svg) no-repeat;
+}
+
+.topbox{
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    margin-top: 400px;
+    margin: 80px auto 0px auto;
+    height: 240px;
+}
+.textleft{
+    display: inline-block;
+    height: 100%;
+    width: 45%;
+    color: hsl(300, 43%, 22%);
+}
+.textleft h1{
+    font-family: extrabold;
+    padding: 0px 25% 0px 0px;
+}
+.textleft p{
+    font-family: Spartan;
+    font-weight: 600;
+    padding: 0px 12% 0px 0%;
+    font-size: 14px;
+}
+.starsright{
+    display: inline-block;
+    height: 100%;
+    width: 55%;
+    color: hsl(300, 43%, 22%);
+}
+.starbox1{
+    width: 80%;
+    height: 45px;
+    background-color: hsl(300, 24%, 96%);
+    margin-top: 7.5%;
+    border-radius: 6px;
+}
+.starbox2{
+    width: 80%;
+    height: 45px;
+    background-color: hsl(300, 24%, 96%);
+    margin-top: 4%;
+    margin-left: 9.3%;
+    border-radius: 6px;
+}
+.starbox3{
+    width: 80%;
+    height: 45px;
+    background-color: hsl(300, 24%, 96%);
+    float: right;
+    margin-top: 4%;
+    border-radius: 6px;
+}
+.textloc{
+    position: absolute;
+    margin-top: 1.29%;
+}
+.h31{
+    display: inline;
+    margin-left: 25px;
+    font-family: mediumm;
+    font-size: 13px;
+}
+i:nth-of-type(1){
+    margin-left: 19px;
+}
+i{
+    color: #efc800;
+}
+.bottombox{
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    height: max-content;
+    margin: 40px auto;
+}
+.per1{
+    background-color:hsl(300, 43%, 22%);
+    width: 31%;
+    height: 200px;
+    border-radius: 8px;
+}
+.per2{
+    background-color:hsl(300, 43%, 22%);
+    width: 31%;
+    height: 200px;
+    margin: 3% 0px 0px 3.5%;
+    border-radius: 8px;
+}
+.per3{
+    background-color:hsl(300, 43%, 22%);
+    width: 31%;
+    height: 200px;
+    margin: 6% 0px 0px 3.5%;
+    border-radius: 8px;
+}
+img{
+    display: inline;
+    border-radius: 50%;
+    width: 15%;
+    vertical-align: middle;
+    float: left;
+}
+.name{
+    display: inline;
+    margin-left: 10%;
+    color: hsl(0, 0%, 100%);
+}
+.profile :last-child{
+    color: hsl(302, 31%, 52%);
+}
+.profile{
+    background-color: none;
+    height: max-content;
+    width: 85%;
+    margin: 13% auto 0px auto;
+    font-family: mediumm;
+    font-size: 13px;
+}
+.bottombox p{
+    font-family: Spartan;
+    color: hsl(300, 24%, 96%);
+    font-size: 13px;
+    padding: 15px 25px 25px 25px;
+    font-weight: 500;
+}
